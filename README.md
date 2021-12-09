@@ -1,24 +1,20 @@
-# README
+# Points Assessment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+To download the dependencies for the web service, run:
 
-* Ruby version
+```sh
+bundle install
+```
 
-* System dependencies
+There is some starter code in the `db/seeds.rb` file so that once you've
+generated the models, you'll be able to create data to test the application.
 
-* Configuration
+You can run your Rails API on [`localhost:3000`](http://localhost:3000) by running:
 
-* Database creation
+```sh
+rails s
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can test and check the application by running the Rails server and using Postman to make requests.
